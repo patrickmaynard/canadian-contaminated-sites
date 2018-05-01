@@ -26,7 +26,7 @@ To make get a basic FCSI database up and running, do the following:
 
 -- Now run     diff test-db-dump-for-compare-output.txt test-db-dump-for-compare-baseline.txt
 
-# (^This should result in no differences -- just another command prompt. If you see a bunch of text, something is wrong.)
+(^This should result in no differences -- just another command prompt. If you see a bunch of text, something is wrong.)
 
 -- Assuming everything has worked so far, you can now safely run the following commands ... 
 
