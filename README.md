@@ -1,6 +1,6 @@
 # FCSI importer
 
-This is a small set of tools I created in 2016 as a chance to play with Python a bit. It is not terribly professional -- witness the need to explicitly cast a bunch of strings in SQLite queries, for instance -- but I'm putting it up in case it's helpful for someone else.
+This is a small set of tools I created in 2016 as a chance to play with Python a bit. It is not terribly professional -- witness the fact that the tools still live in a "drafts" folder, for instance -- but I'm putting it up as-is in case it can be adapted in a helpful way for someone else.
 
 
 
