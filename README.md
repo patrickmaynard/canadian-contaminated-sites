@@ -106,9 +106,9 @@ SELECT COUNT(*) AS TheCount, ReportingOrganization FROM sites WHERE Location_Cou
 1|DFO
 1|DND
 
-... meaning that I want to reach out to Global Affairs Canada, Fisheries and Oceans Canada and National Defence (in that order of priority) for my European story.
+... meaning that I would want to reach out to Global Affairs Canada, Fisheries and Oceans Canada and National Defence (in that order of priority) if I were doing a Europe-based story.
 
-(I may also wish to reach out to the Treasury Board Secretariat, but I should probably do so after talking to the groups above.)  
+(I would also wish to reach out to the Treasury Board Secretariat, but I would probably do so after talking to the groups above.)  
 
 
 
