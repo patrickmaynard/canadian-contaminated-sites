@@ -2,7 +2,7 @@
 
 This is a small set of tools I created in 2016 as a chance to play with Python a bit. It is not terribly professional -- witness the fact that the tools still live in a "drafts" folder, for instance -- but I'm putting it up as-is in case it can be adapted in a helpful way for someone else.
 
-TODO: Now that some of the old Python 2 libraries this is built on are dead, redo this as a Symfony/MySQL app, building out a frontend that shows European sites on a map. Then report on what that map shows, sending it to the blog if necessary.
+TODO: Now that some of the old Python 2 libraries this is built on are dead, redo this as a Symfony/MySQL app, building out a frontend that shows global sites on a map. Then report on what that map shows, sending it to the blog if necessary.
 
 -----------------------------------
 -----------------------------------
@@ -10,7 +10,7 @@ TODO: Now that some of the old Python 2 libraries this is built on are dead, red
 
 ## MANDATORY FUN 
 
-To make get a basic FCSI database up and running, do the following:
+To get a basic FCSI database up and running, do the following:
 
 -- Install virtualenvwrapper if needed
 
