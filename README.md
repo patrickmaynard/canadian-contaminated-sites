@@ -12,7 +12,7 @@ TODO: Now that some of the old Python 2 libraries this is built on are dead, red
 
 To get a basic FCSI database up and running, do the following:
 
--- Install virtualenvwrapper if needed
+-- Install python2 and virtualenvwrapper if needed
 
 -- cd to the "drafts" folder.
 
@@ -20,9 +20,9 @@ To get a basic FCSI database up and running, do the following:
 
 -- Use   pip install -r requirements.txt   to install all required libraries. 
 
--- Use   python run-unit-tests.py   to run some basic unit tests. (You should get "OK" as your result. Any other result probably means you're missing a dependency.)
+-- Use   python2 run-unit-tests.py   to run some basic unit tests. (You should get "OK" as your result. Any other result probably means you're missing a dependency.)
 
--- Use   python import-test-records.py   to import a set of test records into a testing version of our database. You should get a screenfull of text.  
+-- Use   python2 import-test-records.py   to import a set of test records into a testing version of our database. You should get a screenfull of text.  
 
 -- Now run     diff test-db-dump-for-compare-output.txt test-db-dump-for-compare-baseline.txt
 
@@ -34,9 +34,9 @@ To get a basic FCSI database up and running, do the following:
 
 -- unzip fcsi-rscf.zip
 
--- python import-live-records.py
+-- python2 import-live-records.py
 
--- python create-municipal-tally-table.py
+-- python2 create-municipal-tally-table.py
 
 -- sqlite3 fcsi-live.db
 
@@ -62,7 +62,7 @@ Feel free to modify this setup for your own needs.
 
 create a geojson dump of the half-dozen most populated (in a 5km radius) high-priority sites
 
--- python create-geojson.py
+-- python2 create-geojson.py
 
 -- cp data.json ~/path/to/where/you/want/it.json
 
